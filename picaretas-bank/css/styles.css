@@ -1,0 +1,113 @@
+body, h1, h2, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Estilos do Corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #cacfcb;
+}
+
+/* Estilos do Cabeçalho */
+.header {
+    background-color: #005ca5;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    background-image: url('../Imagens/Banco.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos do Container */
+.container {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    line-height: 1.6;
+}
+
+/* Estilos do Rodapé */
+.footer {
+    background-color: #005ca5;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos dos Links */
+ul {
+    list-style-type: none;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+ul li {
+    margin-bottom: 20px;
+}
+
+ul li a {
+    color: #005ca5;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Estilos do Form */
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+form button {
+    background-color: #005ca5;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Estilo da Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #494646;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilo para destacar os links das opções adicionais */
+a.highlight {
+    color: #ff6600;
+    font-weight: bold;
+}
